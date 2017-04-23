@@ -19,7 +19,7 @@ namespace Abp.Application.Features
             _featureConfiguration = featureConfiguration;
         }
 
-        public void Initialize()
+        public void Initialize() // Please when and where is thes metthod called
         {
             foreach (var providerType in _featureConfiguration.Providers)
             {
